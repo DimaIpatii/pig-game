@@ -1,0 +1,1197 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+/**********************************************
+*** MEDIA QEURY MANAGER:
+**********************************************/
+/* @mixin viewport_2($device,$size) {
+    @if $device == phone {
+        @if $size >= 240px {
+            @media (min-width:$size){ @content };
+        }
+    }@else if $device == tab-port {
+        @if $size >= 640px{
+            @media (min-width:$size){ @content };
+        }
+    }@else if $device == tab-land {
+        @if $size >= 900px {
+            @media (min-width:$size) { @content };
+        }
+    }@else if $device == desktop {
+        @if $size >= 1200px {
+            @media (min-width:$size){ @content };
+        }
+    }@else if $device == big-desktop {
+        @if $size >= 1920px{
+            @media (min-width:$size){ @content };
+        }
+    }
+} */
+/**********************************************
+*** SWITCH ACTIVE PLAYER:
+**********************************************/
+@-webkit-keyframes active {
+  0% {
+    -webkit-clip-path: circle(0% at 0% 0%);
+            clip-path: circle(0% at 0% 0%); }
+  100% {
+    -webkit-clip-path: circle(127% at 10% 10%);
+            clip-path: circle(127% at 10% 10%); } }
+@keyframes active {
+  0% {
+    -webkit-clip-path: circle(0% at 0% 0%);
+            clip-path: circle(0% at 0% 0%); }
+  100% {
+    -webkit-clip-path: circle(127% at 10% 10%);
+            clip-path: circle(127% at 10% 10%); } }
+
+/**********************************************
+*** WINNER:
+**********************************************/
+@-webkit-keyframes winner {
+  0% {
+    -webkit-box-shadow: 0px 0px 30px 5px #9e0707;
+            box-shadow: 0px 0px 30px 5px #9e0707; }
+  25% {
+    -webkit-box-shadow: 0px 0px 30px 10px #9e0707;
+            box-shadow: 0px 0px 30px 10px #9e0707; }
+  50% {
+    -webkit-box-shadow: 0px 0px 30px 0px #9e0707;
+            box-shadow: 0px 0px 30px 0px #9e0707; }
+  75% {
+    -webkit-box-shadow: 0px 0px 30px 10px #9e0707;
+            box-shadow: 0px 0px 30px 10px #9e0707; }
+  100% {
+    -webkit-box-shadow: 0px 0px 30px 0px #9e0707;
+            box-shadow: 0px 0px 30px 0px #9e0707; } }
+@keyframes winner {
+  0% {
+    -webkit-box-shadow: 0px 0px 30px 5px #9e0707;
+            box-shadow: 0px 0px 30px 5px #9e0707; }
+  25% {
+    -webkit-box-shadow: 0px 0px 30px 10px #9e0707;
+            box-shadow: 0px 0px 30px 10px #9e0707; }
+  50% {
+    -webkit-box-shadow: 0px 0px 30px 0px #9e0707;
+            box-shadow: 0px 0px 30px 0px #9e0707; }
+  75% {
+    -webkit-box-shadow: 0px 0px 30px 10px #9e0707;
+            box-shadow: 0px 0px 30px 10px #9e0707; }
+  100% {
+    -webkit-box-shadow: 0px 0px 30px 0px #9e0707;
+            box-shadow: 0px 0px 30px 0px #9e0707; } }
+
+/**********************************************
+*** ROTATE DICE:
+**********************************************/
+@-webkit-keyframes rotateDice {
+  /* 3*/
+  0% {
+    -webkit-transform: translateZ(-100px) rotateX(180deg) rotateY(360deg) rotateZ(0deg);
+            transform: translateZ(-100px) rotateX(180deg) rotateY(360deg) rotateZ(0deg); }
+  /*2*/
+  20% {
+    -webkit-transform: translateZ(-100px) rotateX(180deg) rotateY(90deg) rotateZ(0deg);
+            transform: translateZ(-100px) rotateX(180deg) rotateY(90deg) rotateZ(0deg); }
+  /*1*/
+  40% {
+    -webkit-transform: translateZ(-100px) rotateX(-1deg) rotateY(360deg) rotateZ(90deg);
+            transform: translateZ(-100px) rotateX(-1deg) rotateY(360deg) rotateZ(90deg); }
+  /*4*/
+  60% {
+    -webkit-transform: translateZ(-100px) rotateX(89deg) rotateY(360deg) rotateZ(-90deg);
+            transform: translateZ(-100px) rotateX(89deg) rotateY(360deg) rotateZ(-90deg); }
+  /*6*/
+  80% {
+    -webkit-transform: translateZ(-100px) rotateX(-270deg) rotateY(360deg) rotateZ(0deg);
+            transform: translateZ(-100px) rotateX(-270deg) rotateY(360deg) rotateZ(0deg); }
+  /*5*/
+  100% {
+    -webkit-transform: translateZ(-100px) rotateX(-1deg) rotateY(450deg) rotateZ(-90deg);
+            transform: translateZ(-100px) rotateX(-1deg) rotateY(450deg) rotateZ(-90deg); } }
+@keyframes rotateDice {
+  /* 3*/
+  0% {
+    -webkit-transform: translateZ(-100px) rotateX(180deg) rotateY(360deg) rotateZ(0deg);
+            transform: translateZ(-100px) rotateX(180deg) rotateY(360deg) rotateZ(0deg); }
+  /*2*/
+  20% {
+    -webkit-transform: translateZ(-100px) rotateX(180deg) rotateY(90deg) rotateZ(0deg);
+            transform: translateZ(-100px) rotateX(180deg) rotateY(90deg) rotateZ(0deg); }
+  /*1*/
+  40% {
+    -webkit-transform: translateZ(-100px) rotateX(-1deg) rotateY(360deg) rotateZ(90deg);
+            transform: translateZ(-100px) rotateX(-1deg) rotateY(360deg) rotateZ(90deg); }
+  /*4*/
+  60% {
+    -webkit-transform: translateZ(-100px) rotateX(89deg) rotateY(360deg) rotateZ(-90deg);
+            transform: translateZ(-100px) rotateX(89deg) rotateY(360deg) rotateZ(-90deg); }
+  /*6*/
+  80% {
+    -webkit-transform: translateZ(-100px) rotateX(-270deg) rotateY(360deg) rotateZ(0deg);
+            transform: translateZ(-100px) rotateX(-270deg) rotateY(360deg) rotateZ(0deg); }
+  /*5*/
+  100% {
+    -webkit-transform: translateZ(-100px) rotateX(-1deg) rotateY(450deg) rotateZ(-90deg);
+            transform: translateZ(-100px) rotateX(-1deg) rotateY(450deg) rotateZ(-90deg); } }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100%;
+  height: 100vh;
+  max-height: 100%;
+  overflow: auto; }
+
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  background-color: #211f1f; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+
+/* .dice-container{
+    width: 330px;
+    height: 500px;
+    position: relative;
+    top: 0px;
+    z-index: 100;
+    border: 1px solid red;
+} */
+html {
+  font-size: 10px;
+  /* @media screen and (min-width: 360px){
+        font-size: 12px;
+    } */
+  /* @media screen and (min-width: 414px){
+        font-size: 13px;
+    } */ }
+
+body {
+  font-family: Lato;
+  font-weight: 300;
+  color: #555; }
+
+/**********************************************
+*** INTERFACE:
+**********************************************/
+.player-panel {
+  color: #EB4D4D; }
+  .player-panel__label {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: #fff; }
+  .player-panel__score {
+    font-size: 1.875rem; }
+
+.game-range {
+  color: #fff; }
+  .game-range__field {
+    color: #EB4D4C;
+    text-align: center;
+    font-size: 1.25rem; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield; }
+
+/**********************************************
+*** BUTTONS:
+**********************************************/
+.btn {
+  color: #fff;
+  font-family: Lato;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 300; }
+  .btn_roll {
+    color: #EB4D4C; }
+  .btn_new {
+    color: #2d2d2d; }
+
+i {
+  font-size: 2rem;
+  line-height: 1; }
+
+/**********************************************
+*** MESSAGES:
+**********************************************/
+.hint-message {
+  text-align: center;
+  font-size: 1.5625rem;
+  font-weight: bold;
+  color: white; }
+
+/**********************************************
+*** PLAYERS:
+**********************************************/
+.player {
+  color: white;
+  text-align: center; }
+  .player__name {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    font-weight: 100; }
+  .player__score {
+    font-size: 5rem;
+    font-weight: 100;
+    color: #EB4D4D; }
+
+.active .player__score {
+  color: white; }
+
+.winner .player__name {
+  font-weight: 300;
+  color: #EB4D4D; }
+
+/**********************************************
+*** RUN DICE ANIMATION:
+**********************************************/
+.rotate-dice {
+  -webkit-animation: rotateDice 4s;
+          animation: rotateDice 4s; }
+
+/**********************************************
+*** UNDERLINE PLAYER IS "ACTIVE/WINNER":
+**********************************************/
+.active::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  border-radius: 1.25rem;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#eb4d4c), color-stop(#e44645), color-stop(#de3f3e), color-stop(#d73837), to(#d03130));
+  background-image: -o-linear-gradient(right top, #eb4d4c, #e44645, #de3f3e, #d73837, #d03130);
+  background-image: linear-gradient(to left bottom, #eb4d4c, #e44645, #de3f3e, #d73837, #d03130);
+  -webkit-transition: -webkit-clip-path .5s;
+  transition: -webkit-clip-path .5s;
+  -o-transition: clip-path .5s;
+  transition: clip-path .5s;
+  transition: clip-path .5s, -webkit-clip-path .5s;
+  -webkit-animation: active .7s;
+          animation: active .7s; }
+
+.winner {
+  background-color: #f7f7f7;
+  -webkit-animation: winner 8s .1s infinite ease-in-out;
+          animation: winner 8s .1s infinite ease-in-out; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield; }
+
+i {
+  display: inline-block;
+  margin-right: 0.9375rem;
+  vertical-align: text-top;
+  margin-top: -0.25rem;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s; }
+
+.btn {
+  min-height: 2.5rem;
+  min-width: 9.375rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 1.25rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.625rem;
+  background-color: white; }
+  .btn:focus {
+    outline: none; }
+  .btn_new {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%); }
+  .btn_start-game {
+    color: black;
+    position: relative;
+    left: 0%;
+    -webkit-transform: translate(0%);
+        -ms-transform: translate(0%);
+            transform: translate(0%); }
+  .btn_rule {
+    background-color: #4c884c; }
+  .btn_roll {
+    margin: 1.5625rem 0rem; }
+    .btn_roll:hover i {
+      -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+              transform: rotate(90deg); }
+  .btn_hold {
+    background-image: -webkit-gradient(linear, right top, left bottom, from(#eb4d4c), color-stop(#e44645), color-stop(#de3f3e), color-stop(#d73837), to(#d03130));
+    background-image: -o-linear-gradient(right top, #eb4d4c, #e44645, #de3f3e, #d73837, #d03130);
+    background-image: linear-gradient(to left bottom, #eb4d4c, #e44645, #de3f3e, #d73837, #d03130); }
+
+.dice-container {
+  width: 70%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  z-index: 1;
+  top: 45%; }
+
+.dice {
+  width: 80px;
+  height: 80px;
+  -webkit-transform: translateZ(-100px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+          transform: translateZ(-100px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  background-color: white;
+  /**********************************************
+    *** INNER SIDE OF DICE:
+    **********************************************/ }
+  .dice::after, .dice::before {
+    width: 80px;
+    height: 80px;
+    content: '';
+    position: absolute;
+    background-color: white; }
+  .dice::after {
+    -webkit-transform: rotateY(270deg) translateZ(0px);
+            transform: rotateY(270deg) translateZ(0px); }
+  .dice::before {
+    -webkit-transform: rotateX(451deg) translateZ(0px);
+            transform: rotateX(451deg) translateZ(0px); }
+
+/**********************************************
+*** OUTER SIDE OF DICE:
+**********************************************/
+.side {
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  border-radius: 30px;
+  overflow: hidden; }
+  .side_1 {
+    -webkit-transform: rotateY(0deg) translateZ(41px);
+            transform: rotateY(0deg) translateZ(41px); }
+  .side_2 {
+    -webkit-transform: rotateY(90deg) translateZ(41px);
+            transform: rotateY(90deg) translateZ(41px); }
+  .side_3 {
+    -webkit-transform: rotateY(180deg) translateZ(41px);
+            transform: rotateY(180deg) translateZ(41px); }
+  .side_4 {
+    -webkit-transform: rotateY(-90deg) translateZ(41px);
+            transform: rotateY(-90deg) translateZ(41px); }
+  .side_5 {
+    -webkit-transform: rotateX(90deg) translateZ(41px);
+            transform: rotateX(90deg) translateZ(41px); }
+  .side_6 {
+    -webkit-transform: rotateX(-90deg) translateZ(41px);
+            transform: rotateX(-90deg) translateZ(41px); }
+
+/**********************************************
+*** INNER SIDE OF DICE:
+**********************************************/
+.side-inner {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  background-color: white;
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 10px -7px black;
+          box-shadow: 0px 0px 10px -7px black; }
+  .side-inner_1 {
+    -webkit-transform: rotateX(180deg) rotateY(0deg) translate(0px, 0px) translateZ(-40px);
+            transform: rotateX(180deg) rotateY(0deg) translate(0px, 0px) translateZ(-40px); }
+  .side-inner_2 {
+    -webkit-transform: rotateX(90deg) rotateY(-90deg) translate(0px, 0px) translateZ(-40px);
+            transform: rotateX(90deg) rotateY(-90deg) translate(0px, 0px) translateZ(-40px); }
+  .side-inner_3 {
+    -webkit-transform: rotateX(0deg) rotateY(0deg) translate(0px, 0px) translateZ(-40px);
+            transform: rotateX(0deg) rotateY(0deg) translate(0px, 0px) translateZ(-40px); }
+  .side-inner_4 {
+    -webkit-transform: rotateX(90deg) rotateY(90deg) translate(0px, 0px) translateZ(-40px);
+            transform: rotateX(90deg) rotateY(90deg) translate(0px, 0px) translateZ(-40px); }
+  .side-inner_5 {
+    -webkit-transform: rotateX(270deg) rotateY(0deg) translate(0px, 0px) translateZ(-40px);
+            transform: rotateX(270deg) rotateY(0deg) translate(0px, 0px) translateZ(-40px); }
+  .side-inner_6 {
+    -webkit-transform: rotateX(90deg) rotateY(0deg) translate(0px, 0px) translateZ(-40px);
+            transform: rotateX(90deg) rotateY(0deg) translate(0px, 0px) translateZ(-40px); }
+
+.hint-message {
+  width: 31.25rem;
+  height: 18.75rem;
+  padding: 0 1.25rem;
+  position: absolute;
+  z-index: 1000;
+  bottom: -100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 150%);
+      -ms-transform: translate(-50%, 150%);
+          transform: translate(-50%, 150%);
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  background-color: #eb4d4c;
+  border-radius: 1.25rem; }
+
+.show-message {
+  bottom: 0%;
+  -webkit-transform: translate(-50%, -35vh);
+      -ms-transform: translate(-50%, -35vh);
+          transform: translate(-50%, -35vh); }
+
+.players-container {
+  width: 14.375rem;
+  height: 17.5rem;
+  position: relative;
+  z-index: 1;
+  top: 11%;
+  -webkit-perspective: 5000px;
+          perspective: 5000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s; }
+  .players-container_rotate {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg); }
+
+.front,
+.back {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
+
+.back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg); }
+
+.player {
+  width: 100%;
+  height: 100%;
+  padding: 1.25rem;
+  background-color: #2d2d2d;
+  -webkit-box-shadow: 0px 4px 13px 5px #0000007d;
+          box-shadow: 0px 4px 13px 5px #0000007d;
+  border-radius: 1.25rem; }
+  .player__name {
+    position: initial;
+    z-index: 1; }
+  .player__score {
+    position: initial;
+    z-index: 1; }
+
+.cover {
+  width: 100vw;
+  height: 100vh;
+  background-color: #211e1e;
+  position: absolute;
+  z-index: 100;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+  top: 0rem;
+  left: 0rem;
+  bottom: 0rem; }
+  .cover__header {
+    position: absolute;
+    z-index: 100;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; }
+  .cover__header-position {
+    position: relative; }
+  .cover__caption {
+    font-size: 2.5rem;
+    color: #eb4d4c;
+    margin-bottom: 2.5rem; }
+  .cover__buttons {
+    height: 10.625rem;
+    position: relative; }
+
+.cover_hide {
+  -webkit-transition: -webkit-transform .9s;
+  transition: -webkit-transform .9s;
+  -o-transition: transform .9s;
+  transition: transform .9s;
+  transition: transform .9s, -webkit-transform .9s;
+  -webkit-transform: translateY(-200%);
+      -ms-transform: translateY(-200%);
+          transform: translateY(-200%); }
+
+.rules {
+  width: 90%;
+  margin-top: 2.5rem;
+  padding: 1.25rem 1.875rem;
+  overflow: auto;
+  visibility: hidden;
+  color: #ffffff;
+  font-size: 1.5625rem;
+  font-weight: 600;
+  letter-spacing: 0.09375rem;
+  line-height: 1.3;
+  border: 1px solid red;
+  border-radius: 1.25rem;
+  opacity: 0; }
+  .rules_show {
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+    opacity: 1;
+    visibility: visible; }
+  .rules__list-container {
+    list-style: none;
+    color: #bdbdbd; }
+    .rules__list-container li {
+      margin-bottom: 0.75rem; }
+  .rules__paragraph {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding-bottom: 0.3125rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 2px solid #eb4d4c; }
+  .rules__dice-icon {
+    font-size: 2.5rem;
+    color: #eb4d4c;
+    line-height: .5;
+    display: inline-table;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-right: 0.625rem; }
+  .rules__dice-exmp {
+    font-size: 2rem; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/**********************************************
+*** COVER:
+**********************************************/
+.cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .cover__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+/**********************************************
+*** WRAPPER:
+**********************************************/
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/**********************************************
+*** INTERFACE:
+**********************************************/
+.interface {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .interface__header {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+/**********************************************
+*** BUTTONS:
+**********************************************/
+.interface__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/**********************************************
+*** DICE:
+**********************************************/
+.dice-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+/**********************************************
+*** MESSAGES:
+**********************************************/
+.hint-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/**********************************************
+*** PLAYERS:
+**********************************************/
+.players-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.interface {
+  width: 100%;
+  min-height: 35%;
+  background-color: #2d2d2d;
+  padding: 1.875rem;
+  border-radius: 0.9375rem;
+  position: absolute; }
+
+.player-panel {
+  background-color: #211e1e;
+  width: 6.25rem;
+  padding: 0.75rem;
+  border-radius: 0.625rem; }
+  .player-panel__label {
+    margin-bottom: 0.625rem; }
+
+.game-range {
+  margin: 0 1.25rem; }
+  .game-range__field {
+    width: 8.75rem;
+    height: 3.125rem;
+    background-color: #211e1e;
+    margin-top: 0.625rem;
+    outline: none;
+    border: none;
+    border-radius: 0.625rem; }
+  @media only screen and (min-width: 640px) {
+    .wrapper {
+      width: 80vw;
+      height: 90vh; }
+    html {
+      font-size: 14px; }
+      .player__name {
+        font-size: 2.5rem; }
+      .btn_new {
+        top: 0%;
+        z-index: 1; }
+      .btn_roll {
+        margin: 2.5rem 0rem; }
+    .dice-container {
+      width: 45%; }
+    .dice {
+      width: 100px;
+      height: 100px; }
+      .dice::after, .dice::before {
+        width: 100px;
+        height: 100px; }
+    .side {
+      width: 100px;
+      height: 100px; }
+      .side_1 {
+        -webkit-transform: rotateY(0deg) translateZ(51px);
+                transform: rotateY(0deg) translateZ(51px); }
+      .side_2 {
+        -webkit-transform: rotateY(90deg) translateZ(51px);
+                transform: rotateY(90deg) translateZ(51px); }
+      .side_3 {
+        -webkit-transform: rotateY(180deg) translateZ(51px);
+                transform: rotateY(180deg) translateZ(51px); }
+      .side_4 {
+        -webkit-transform: rotateY(-90deg) translateZ(51px);
+                transform: rotateY(-90deg) translateZ(51px); }
+      .side_5 {
+        -webkit-transform: rotateX(90deg) translateZ(51px);
+                transform: rotateX(90deg) translateZ(51px); }
+      .side_6 {
+        -webkit-transform: rotateX(-90deg) translateZ(51px);
+                transform: rotateX(-90deg) translateZ(51px); }
+    .side-inner {
+      width: 100px;
+      height: 100px; }
+      .side-inner_1 {
+        -webkit-transform: rotateX(180deg) rotateY(0deg) translate(0px, 0px) translateZ(-50px);
+                transform: rotateX(180deg) rotateY(0deg) translate(0px, 0px) translateZ(-50px); }
+      .side-inner_2 {
+        -webkit-transform: rotateX(90deg) rotateY(-90deg) translate(0px, 0px) translateZ(-50px);
+                transform: rotateX(90deg) rotateY(-90deg) translate(0px, 0px) translateZ(-50px); }
+      .side-inner_3 {
+        -webkit-transform: rotateX(0deg) rotateY(0deg) translate(0px, 0px) translateZ(-50px);
+                transform: rotateX(0deg) rotateY(0deg) translate(0px, 0px) translateZ(-50px); }
+      .side-inner_4 {
+        -webkit-transform: rotateX(90deg) rotateY(90deg) translate(0px, 0px) translateZ(-50px);
+                transform: rotateX(90deg) rotateY(90deg) translate(0px, 0px) translateZ(-50px); }
+      .side-inner_5 {
+        -webkit-transform: rotateX(270deg) rotateY(0deg) translate(0px, 0px) translateZ(-50px);
+                transform: rotateX(270deg) rotateY(0deg) translate(0px, 0px) translateZ(-50px); }
+      .side-inner_6 {
+        -webkit-transform: rotateX(90deg) rotateY(0deg) translate(0px, 0px) translateZ(-50px);
+                transform: rotateX(90deg) rotateY(0deg) translate(0px, 0px) translateZ(-50px); }
+    .players-container {
+      width: 100%;
+      height: 21.875rem;
+      top: 10%; }
+      .players-container:hover {
+        -webkit-transform: rotateY(0deg);
+                transform: rotateY(0deg); }
+    .front,
+    .back {
+      width: 15.625rem; }
+    .back {
+      right: 0%;
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg); }
+    .interface {
+      padding: 1.25rem;
+      min-height: 40%; } }
+  @media only screen and (min-width: 1200px) {
+    .wrapper {
+      width: 55vw;
+      height: 90vh; }
+    .btn {
+      padding: 0.625rem 1.25rem; }
+    .dice-container {
+      width: 35%; }
+    .player {
+      top: 0px; }
+    .player_panel-0 {
+      left: 0px; }
+    .player_panel-1 {
+      right: 0px; }
+      .cover__buttons {
+        height: 6.25rem; }
+    .rules {
+      width: 60%; } }
+  @media only screen and (min-width: 1920px) {
+    .wrapper {
+      width: 60rem;
+      height: 80vh; }
+    html {
+      font-size: 18px; } }
+  @media only screen and (min-width: 940px) {
+    html {
+      font-size: 16px; }
+    .dice-container {
+      width: 40%; } }

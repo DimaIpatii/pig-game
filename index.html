@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Games</title>
+
+    <!-- Google Fonts: -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <!-- Ionic Framework CDN -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <!-- My style: -->
+    <!-- <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/dice.css"> -->
+<link href="style.css" rel="stylesheet"></head>
+<body>
+
+    <div class="cover ">
+        <header class="cover__header">
+            <h1 class="cover__caption">The Pig Game</h1>
+    
+            <div class="cover__buttons">
+                <button class="btn btn_start-game">Start Game</button>
+                <button class="btn btn_rule">Rules</button>
+            </div>
+        </header>
+
+        <div class="rules">
+            <p class="rules__paragraph">Rules:</p>
+            <ul class="rules__list-container">
+                <li><span class="rules__dice-icon">⚀</span>The game has two players, playing in rounds.</li>
+                <li><span class="rules__dice-icon">⚁</span>The players have to specify the "Game Range" in order to start the game.</li>
+                <li><span class="rules__dice-icon">⚂</span>In each turn, a player rolls a dice as many times as he wants. As soon as a dice stops, its result get added to its "current" score.</li>
+                <li><span class="rules__dice-icon">⚃</span>But, if the player rolls and the dices show up two numbers of ( <span class="rules__dice-exmp">⚀</span> <span class="rules__dice-exmp">⚀</span> ) or two numbers of 6 ( <span class="rules__dice-exmp">⚅ ⚅</span> ), all his round score gets lost. After that the next player's turn.</li>
+                <li><span class="rules__dice-icon">⚄</span>The player can choose to "Hold", which means that his 'current' score gets added to his "global" score. After that it's the next player's turn.</li>
+                <li><span class="rules__dice-icon">⚅</span>The first player who reach the "Game Range" points on his "Global" score, wins the game.</li>
+            </ul>
+            <p class="rules__paragraph_2">Tha's all. <br/>So, let's get started! 💪🏻😎</p>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <!-- <div class="new-game-button"> -->
+        <button class="btn btn_new">New game</button>
+        <!-- </div> -->
+
+        <!-- Players Panel -->
+        <section class="players-container">
+            <div class="front">
+                <div class="player player_panel-0 winner">
+                    <div class="player__name" id="name-0">Player 1</div>
+                    <div class="player__score" id="score-0">43</div>
+                </div>
+            </div>
+
+            <div class="back">
+                <div class="player player_panel-1">
+                    <div class="player__name" id="name-1">Player 2</div>
+                    <div class="player__score" id="score-1">72</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Players Panel -->
+
+        <!-- Dices: -->
+        <section class="dice-container">
+            <!-- Dice 1: -->
+            <div class="dice dice_1" id="dice-1">
+                        
+                    <div class="side-inner side-inner_1"></div>
+                    <div class="side side_1"><img src="img/dice-1.4f0eb1f1a908fd1cd89a05bf007a61cb.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_2"></div>
+                    <div class="side side_2"><img src="img/dice-2.41531477db78222ee50d9cec035c591b.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_3"></div>
+                    <div class="side side_3"><img src="img/dice-3.c277ce8657ac7fb36345574f7c793607.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_4"></div>
+                    <div class="side side_4"><img src="img/dice-4.230891855c53f362632c8d7436419b44.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_5"></div>
+                    <div class="side side_5"><img src="img/dice-5.3db952d1418575ea45d1e67395d8505b.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_6"></div>
+                    <div class="side side_6"><img src="img/dice-6.170d5ce67cd7036f7984735cbde7336d.png" alt="dice image"></div>
+                
+            </div>
+            <!-- Dice 2: -->
+            <div class="dice dice_2" id="dice-2">
+                
+                    <div class="side-inner side-inner_1"></div>
+                    <div class="side side_1"><img src="img/dice-1.4f0eb1f1a908fd1cd89a05bf007a61cb.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_2"></div>
+                    <div class="side side_2"><img src="img/dice-2.41531477db78222ee50d9cec035c591b.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_3"></div>
+                    <div class="side side_3"><img src="img/dice-3.c277ce8657ac7fb36345574f7c793607.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_4"></div>
+                    <div class="side side_4"><img src="img/dice-4.230891855c53f362632c8d7436419b44.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_5"></div>
+                    <div class="side side_5"><img src="img/dice-5.3db952d1418575ea45d1e67395d8505b.png" alt="dice image"></div>
+                
+                
+                    <div class="side-inner side-inner_6"></div>
+                    <div class="side side_6"><img src="img/dice-6.170d5ce67cd7036f7984735cbde7336d.png" alt="dice image"></div>
+                
+            </div>
+        </section>
+        <!-- Dices: -->
+
+        <!-- Interface -->
+        <section class="interface">
+            <div class="interface__header">
+                <div class="player-panel">
+                    <div class="player-panel__label">Current</div>
+                    <div class="player-panel__score" id="current-0">11</div>
+                </div>
+    
+                <!-- Range of game: -->
+                <div class="game-range set-score-wrapper">
+                    <p>GAME RANGE</p>
+                    <input type="number" name="set score" value="" placeholder='0' id="set-score" class="game-range__field">
+                </div>
+                
+                <div class="player-panel">
+                    <div class="player-panel__label">Current</div>
+                    <div class="player-panel__score" id="current-1">11</div>
+                </div>
+            </div>
+            
+            <!-- <div class="interface__buttons"> -->
+            <button class="btn btn_roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn btn_hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            <!-- </div> -->
+        </section>
+        <!-- Interface -->
+
+        <!-- Popup Message: -->
+        <div id="message" class="hint-message"></div>
+    </div>
+<script src="script.js"></script></body>
+</html>
